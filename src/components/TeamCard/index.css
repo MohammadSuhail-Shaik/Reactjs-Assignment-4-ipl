@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.link-item {
+  text-decoration: none;
+  width: 45%;
+}
+.each-ipl-card {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  list-style-type: none;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  padding: 5px 10px 5px 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  min-height: 100px;
+}
+@media screen and (min-width: 768px) {
+  .each-ipl-card {
+    padding: 20px 30px 20px 30px;
+    min-height: 150px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .each-ipl-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 150px;
+  }
+}
+.each-ipl-img {
+  height: 50px;
+  width: 50px;
+}
+@media screen and (min-width: 768px) {
+  .each-ipl-img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.each-ipl-title {
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .each-ipl-title {
+    font-size: 25px;
+    margin-left: 30px;
+  }
+}
